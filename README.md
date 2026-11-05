@@ -16,7 +16,9 @@ Lógica: `ui/viewmodel/EngineeringViewModel.kt`.
 
 ## Obtener el APK
 
-Cada push a `main` ejecuta **GitHub Actions → Compilar APK**. Abre la ejecución más reciente en la pestaña *Actions* y descarga el artefacto `IngenieriaCivilPro-debug` (zip con `app-debug.apk`).
+**Descarga directa del último APK:** https://github.com/GamalielHu/ingenieria-civil-pro/releases/latest/download/IngenieriaCivilPro.apk
+
+Cada push a `main` compila y publica un Release nuevo con el APK.
 
 ## Compilar localmente
 
