@@ -1131,7 +1131,7 @@ Practícalo en la pestaña 'Cronograma' con la tabla del examen ya cargada.
             listOf(Triple("n", 4.0, "Cantidad"), Triple("b", 0.2, "Base (m)"), Triple("h", 0.4, "Altura (m)"), Triple("L", 5.0, "Longitud (m)"))),
         f("Encofrado de muros (dos caras)", "Encofrado", "2*L*H", "m²", "Dos caras del muro.",
             listOf(Triple("L", 10.0, "Longitud (m)"), Triple("H", 3.0, "Altura (m)"))),
-        f("Rendimiento madera de encofrado", "Encofrado", "(Atab+Alist)*10.764/V", "pie²/m³",
+        f("Rendimiento madera de encofrado", "Encofrado", "(Atab+Alist)*10.76/V", "pie²/m³",
             "Ej. examen: Atab=5,0 m², Alist=0,6096 m², V=0,45 m³ → 134,13 pie²/m³.",
             listOf(Triple("Atab", 5.0, "Área de tablones (m²)"), Triple("Alist", 0.6096, "Área equivalente listones (m²)"), Triple("V", 0.45, "Volumen hormigonado (m³)"))),
 

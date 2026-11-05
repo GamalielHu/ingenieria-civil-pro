@@ -38,7 +38,7 @@ class DominioTest {
         // Inverso 16,96% -> 14,5%
         assertEquals(14.5, eval("100*c/(100+c)", mapOf("c" to 16.96)), 0.005)
         // Madera de encofrado -> 134,13 pie2/m3
-        assertEquals(134.13, eval("(Atab+Alist)*10.764/V", mapOf("Atab" to 5.0, "Alist" to 0.6096, "V" to 0.45)), 0.05)
+        assertEquals(134.13, eval("(Atab+Alist)*10.76/V", mapOf("Atab" to 5.0, "Alist" to 0.6096, "V" to 0.45)), 0.05)
     }
 
     @Test
